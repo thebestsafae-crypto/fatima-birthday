@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Fatima Ezzahrae!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 90%;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .birthday-girl {
+            font-weight: 600;
+            font-size: 2rem;
+            color: #ff6b6b;
+            margin-bottom: 30px;
+        }
+        
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: left;
+            padding: 0 20px;
+        }
+        
+        .heart {
+            color: #ff6b6b;
+            font-size: 1.5rem;
+            animation: pulse 1.5s infinite;
+            display: inline-block;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+        
+        .balloons {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .balloon {
+            position: absolute;
+            width: 50px;
+            height: 60px;
+            border-radius: 50%;
+            opacity: 0.7;
+            animation: float 8s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        
+        .cake {
+            font-size: 3rem;
+            margin: 20px 0;
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .signature {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.8rem;
+            margin-top: 20px;
+            color: #ff6b6b;
+        }
+        
+        .photo-frame {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #ff6b6b;
+            margin: 20px auto;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* Add this if you want to include a photo */
+        /* Replace the photo URL with your friend's photo */
+        .photo-placeholder {
+            width: 100%;
+            height: 100%;
+            background-color: #f8d7da;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: #ff6b6b;
+        }
+        
+        .wish-button {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+        
+        .wish-button:hover {
+            background-color: #ff5252;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
+        }
+        
+        .hidden-message {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8d7da;
+            border-radius: 10px;
+            animation: fadeIn 1s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="balloons">
+        <div class="balloon" style="background-color: #ff6b6b; left: 10%; top: 20%;"></div>
+        <div class="balloon" style="background-color: #74b9ff; left: 30%; top: 30%;"></div>
+        <div class="balloon" style="background-color: #55efc4; left: 70%; top: 25%;"></div>
+        <div class="balloon" style="background-color: #a29bfe; left: 85%; top: 35%;"></div>
+        <div class="balloon" style="background-color: #ffeaa7; left: 50%; top: 15%;"></div>
+    </div>
+    
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <div class="birthday-girl">Fatima Ezzahrae <span class="heart">♥</span></div>
+        
+        <div class="photo-frame">
+            <img src="C:\Users\chundie\Downloads\WhatsApp Image 2025-08-06 at 23.17.57.jpeg" alt="Fatima Ezzahrae">
+            
+        </div>
+        
+        <div class="message">
+            <p>Dear Fatima Ezzahrae,</p>
+            <p>On this special day, I want to tell you how much you mean to me. You're not just a friend, you're a beautiful soul who brings light wherever you go.</p>
+            <p>Your kindness, your smile, and your wonderful personality make the world a better place. Today is all about celebrating you - the amazing person you are!</p>
+            <p>May this year bring you endless joy, success in all your endeavors, and all the happiness you deserve. You're truly one in a million!</p>
+        </div>
+        
+        <div class="cake">🎂</div>
+        
+        <button class="wish-button" onclick="showSpecialMessage()">Click for a Special Wish</button>
+        
+        <div id="specialMessage" class="hidden-message">
+            <p>Fatima Ezzahrae,</p>
+            <p>I love you more than words can express. You're the melody in my life's song, the color in my world. Every moment with you is precious, and I cherish our friendship more than you know.</p>
+            <p>On your birthday, I wish you love that's as deep as the ocean, happiness that's as vast as the sky, and dreams that shine as bright as the stars.</p>
+            <p>You're perfect just the way you are, and I'm so grateful to have you in my life. Happy birthday, my dear friend! <span class="heart">♥</span></p>
+        </div>
+        
+        <div class="signature">With all my love</div>
+    </div>
+    
+    <script>
+        function showSpecialMessage() {
+            const message = document.getElementById('specialMessage');
+            if (message.style.display === 'block') {
+                message.style.display = 'none';
+            } else {
+                message.style.display = 'block';
+                // Create some floating hearts
+                for (let i = 0; i < 10; i++) {
+                    createHeart();
+                }
+            }
+        }
+        
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.innerHTML = '♥';
+            heart.classList.add('heart');
+            heart.style.position = 'absolute';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.top = Math.random() * 100 + 'vh';
+            heart.style.fontSize = (Math.random() * 20 + 10) + 'px';
+            heart.style.animationDuration = (Math.random() * 3 + 2) + 's';
+            document.body.appendChild(heart);
+            
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
+        
+        // Create some balloons
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.balloons');
+            const colors = ['#ff6b6b', '#74b9ff', '#55efc4', '#a29bfe', '#ffeaa7', '#fd79a8'];
+            
+            for (let i = 0; i < 15; i++) {
+                const balloon = document.createElement('div');
+                balloon.classList.add('balloon');
+                balloon.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                balloon.style.left = Math.random() * 100 + '%';
+                balloon.style.top = Math.random() * 100 + '%';
+                balloon.style.width = (Math.random() * 30 + 30) + 'px';
+                balloon.style.height = (Math.random() * 40 + 40) + 'px';
+                balloon.style.animationDelay = (Math.random() * 5) + 's';
+                container.appendChild(balloon);
+            }
+        });
+    </script>
+</body>
+</html>
